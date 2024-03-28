@@ -1,0 +1,880 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+    
+}
+body{
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+  
+}
+
+
+
+header{
+    width:100%;
+    height:600px;
+}
+
+header nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+header nav #s2 i {
+    display: none;
+}
+header nav #s1 i  {
+    display: none;
+}
+
+header nav ul{
+    width:70%;
+    height:100px;
+    background-color: rgb(24, 24, 24);
+    border-top: 7px solid rgb(32, 161, 131);
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    text-transform: uppercase;
+    color:white;
+    list-style-type: none;
+    padding: 32px;
+    height: 100%;
+}
+
+header nav ul li:hover{
+    background-color: rgb(6, 116, 90);
+    color: white;
+}
+
+header nav .logo{
+    padding: 10px 0px 0px 100px;
+}
+
+header .head{
+    width: 100%;
+    height:500px;
+    backdrop-filter: blur(29px);
+    background: rgb(31, 65, 65);
+}
+
+header .head h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 60px 0px 0px 50px;
+}
+
+header .head h2{
+    padding: 0px 0px 0px 50px;
+    text-transform: uppercase;
+    text-transform: 45px;
+    color: aqua;
+}
+
+header .head p{
+    padding: 10px 0px 0px 50px;
+    color:gray;
+}
+
+header .head p span{
+    color: yellow;
+}
+
+header .head button{
+    text-transform: uppercase;
+    width: 13%;
+    height:8%;
+    font-size: 16px;
+    background: rgb(24, 24, 24);
+    border: none;
+    border-left: 5px solid  aqua;
+    margin: 10px 0px 0px 50px;
+    color: white;
+} 
+
+header .head button:hover{
+       color:rgb(24, 24, 24);
+       background-color: whitesmoke;
+       border-left: 10px solid rgb(24, 24, 24) ;
+
+}
+
+header .head img{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -397px;
+    height:500px;
+}
+
+.middle{
+    width:100%;
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 0px 0px;
+
+}
+.middle div{
+    width:25%;
+    height:550px;
+    background-color: transparent;
+}
+
+.middle .box1{
+    border: 25px solid rgb(31, 65, 65);
+    background: rgb(32, 161, 131) ;
+    background-image:linear-gradient(to bottom, rgb(32, 161, 131),rgb(31, 65, 65),rgb(31, 65, 65));
+}
+
+.middle .box1 h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.middle .box1 h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.middle .box1 button{
+    text-transform: uppercase;
+    width: 50%;
+    height:8%;
+    font-size: 16px;
+    background: rgb(24, 24, 24);
+    border: none;
+    margin: 10px 0px 0px 85px;
+    color: white;
+}
+
+.middle .box2{
+    background-color: white;
+    line-height: 36px;
+    position: relative;
+}
+
+.middle .box2 h2{
+    padding: 30px 0px 0px 30px;
+    text-transform: uppercase;
+}
+
+.middle .box2 h3{
+    color: grey;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 30px;
+
+}
+
+.middle .box2 i{
+    position: absolute;
+    margin-left: 90%;
+    font-size: 25px;
+    margin-top: -80px;
+    color: rgb(25, 94, 71);
+}
+
+.middle .box2 p{
+    margin: 20px 0px 0px 30px;
+}
+
+.middle .box2 h4{
+    background-color:  rgb(25, 94, 71);
+    color: white;
+    font-size: 17px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.middle .box2 h5{
+    position: absolute;
+    margin-left: 70%;
+    text-transform: uppercase;
+}
+
+.middle .box3 .swiper .box4{
+    width:100%;
+    height:150px;
+    background-color:  rgb(25, 94, 71);
+    position: absolute;
+    margin-top: -150px;
+    z-index: 999;
+}
+
+.middle .box4  h2{
+    font-size: 30px;
+    margin: 20px 0px 0px 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.middle .box4 p{
+    margin: 5px 0px 0px 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.middle .box3 .swiper .swiper-slide img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.middle  .box3  .swiper {
+    width: 100%;
+}
+
+.end{
+    width:100%;
+    height:700px;
+    margin: 80px 0px 0px 0px;
+    display: flex;
+}
+.end .div1{
+    width:70%;
+    height: 100%;
+    background-color: white;
+          
+}
+
+.end .div1 img{
+    width: 100%;
+    height: 50%;
+}
+
+.end .div1 h1{
+    text-transform: uppercase;
+    margin: 50px 0px 0px 50px;
+    font-size: 50px;
+}
+
+.end .div1 p{
+    margin: 10px 0px 0px 50px;
+
+}
+
+.end .div1 button{
+    text-transform: uppercase;
+    width: 13%;
+    height:8%;
+    font-size: 16px;
+    background: rgb(24, 24, 24);
+    border: none;
+    border-left: 5px solid  aqua;
+    margin: 10px 0px 0px 50px;
+    color: white;
+} 
+
+.end .div1 button:hover{
+       color:white;
+       background-color: aqua;
+       border-left: 10px solid rgb(24, 24, 24) ;
+
+}
+
+.end .div2 {
+    width:25%;
+    height: 100%;
+    background-color: white;
+    margin-left:4%;
+}
+.end .div2 .first-div{
+    display: flex;
+    width: 100%;
+}
+
+.end .div2 h4{
+    color: rgb(25, 94, 71);
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.end .div2 #id1{
+    color: white;
+    background: rgb(25, 94, 71);
+}
+
+.end .div2 div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.end .div2 div img{
+    width: 20%;
+    height: 110px;
+    margin: 20px;
+}
+
+.end .div2 div p{
+    color: gray;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1100px){
+    .end .div2 .first-div h4{
+        padding: 15px 16px 15px 16px;
+    }
+
+    .end .div2 .first-div{
+        display: block;
+    }
+    .middle {
+        justify-content: space-between;
+    }
+
+    .middle div{
+        width: 30%;
+    }
+
+    .middle .box1 h2{
+         font-size: 25px;
+    }
+    .middle .box1 h1{
+        font-size: 40px;
+    }
+
+    .middle .box1 button{
+        margin: 10px 0px 0px 70px;
+
+    }
+
+    .end .div1 h1{
+        margin: 30px 0px 0px 50px;
+
+    }
+    .end .div1 button{
+        width:25%
+    }
+
+
+
+    
+}
+
+
+
+@media screen and (max-width:1000px){
+    header .head p{
+        padding: 0;
+    }
+
+    header .head h1{
+        padding: 0;
+    }
+
+    header .head h2{
+        padding: 0;
+    }
+
+    header .head img{
+        margin-top: -323px;
+
+    }
+
+    .middle .box2 h4{
+        margin-top: 20px;
+
+
+    }
+
+    .middle .box1 h1{
+        font-size: 35px;
+    }
+
+    .middle .box1 h2{
+        font-size: 20px;
+    }
+
+    .middle .box1 button{
+        margin: 10px 0px 0px 50px;
+        width:60%;
+
+    }
+
+    .end .div1 h1{
+        margin: 0px 0px 0px 50px;
+
+     }
+
+     .end .div2 div img {
+        width: 30%;
+        margin: 10px;
+     }
+
+     .end .div2 div p{
+        margin: 10px 0px 0px 0px;
+     }
+}
+
+
+
+@media screen and (max-width:950px){
+    header .head{
+        height: 850px;
+    }
+    header .head img{
+        margin-top: 52px;
+        margin-left: 5%;
+        width: 90%;
+        height: 50%;
+
+    }
+
+    header .head  button{
+        width: 20%;
+    }
+
+    .middle{
+        margin-top: 400px;
+    }
+
+    .middle div{
+        width: 32%;
+    }
+}
+
+
+@media screen and (max-width:821px){
+      header nav .logo{
+        padding: 10px 0px 0px 50px;
+
+      }
+       
+    .middle{
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .middle div{
+        width: 45%;
+
+    }
+    .middle .box3 {
+        margin-top: 600px;
+        position: absolute;
+        width: 45%;
+    }
+    .middle .box1 h2 {
+        font-size: 30px;
+    }
+
+    .middle .box1 h1{
+        font-size: 50px;
+    }
+    .middle .box1 button{
+        margin: 0px 0px 0px 65px;
+    }
+    .end{
+        margin-top: 700px;
+        position: relative;
+    }
+
+    .end .div2 {
+        position: absolute;
+        margin-top: 1000px;
+        margin-left: 0%;
+        width: 100%;
+
+
+    }
+
+    .end .div2 .second-class{
+        width: 100%;
+    }
+   
+    .end .div2 .first-div{
+        display: flex;
+
+    }
+
+
+    .end .div2 .first-div h4{
+        padding: 27px 67px 27px 67px;
+
+    }
+    .end .div1{
+        width: 100%;
+        z-index: 999;
+        position: relative;
+    }
+
+    
+}
+
+@media screen and (max-width:785px){
+   header nav ul{
+    display: none;
+    position: absolute;
+    width: 80%;
+
+   }
+
+   header nav  ul li{
+    padding: 10;
+   }
+
+   header nav ul #s2 i {
+    font-size: 15px;
+    color: white;
+     padding: 10px;
+     display: block;
+     
+   }
+  
+
+    header nav #s1  i{
+        font-size: 15px;
+        color: white;
+         padding: 10px;
+         display: block;
+    }
+    header nav .logo{
+        padding: 10px 0px 0px 0px;
+
+      }
+
+      .middle .box1 h2{
+        font-size: 25px;
+
+      }
+      .middle .box1 h1{
+        font-size: 40px;
+      }
+
+      header .head{
+        height: 950px;
+      }
+
+      .middle {
+        margin-top:500px;
+      }
+}
+
+@media screen and (max-width:785px){
+    .middle .box1 h1{
+        font-size: 35px;
+
+    }
+
+    .middle .box1 h2{
+        font-size: 20px;
+    }
+
+    .middle .box1 button{
+        margin: 10px 0px 0px 45px;
+
+    } 
+
+    .middle .box2 i{
+        margin-top: -30%;
+    }
+
+    header .head{
+        height: 1050px;
+    }
+
+    .middle{
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width:605px){
+   .end .div1 h1{
+    font-size: 35px;
+   }
+
+   header .head{
+    height: 1058px;
+}
+
+header nav ul {
+    width: 100%;
+}
+
+header .head button{
+    width: 30%;
+}
+
+.middle {
+    display: block;
+    justify-content: center;
+}
+
+.middle div{
+    width: 60%;
+}
+.middle .box1,.box2,.box3{
+    margin: 20px 70px 20px 110px;
+}
+.middle .box1 h1{
+    font-size: 40px;
+
+}
+
+.middle .box1 button{
+    margin: 0px 0px 0px 55px;
+
+}
+
+.middle .box3 {
+    margin-top: 0px;
+    width: 60%;
+    position: relative;
+}
+
+.end{
+    margin-top: 1300px;
+
+}
+
+header ul li{
+    padding: 5px;
+}
+
+}
+
+@media screen and (max-width:550px){
+    header nav ul li{
+        padding: 25px 5px 0px  30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .end .div2 .first-div h4{
+        padding: 15px 25px 15px 25px;
+
+    }
+
+    .end .div1 {
+        height: 800px;
+        border-bottom: 2px;
+    }
+
+    .end .div1 button{
+        width: 40%;
+        margin: 10px 0px 0px 50px;
+    }
+
+    .middle  .box1{
+        width: 70%;
+        margin: 20px 70px 20px 70px;
+
+
+    }
+
+    .middle  .box1 h1{
+        font-size: 35px;
+    }
+
+    .middle .box1 button{
+        margin: 0px 0px 0px 45px;
+
+    }
+    .middle  .box2{
+        width: 70%;
+        margin: 20px 70px 20px 70px;
+
+
+    }
+
+    .middle  .box3{
+        width: 70%;
+        margin: 20px 70px 20px 70px;
+
+
+
+    }
+
+    header .head{
+        height: 1163px;
+    }
+
+
+    .middle {
+        margin-top: 800px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:400px){
+    header nav ul li{
+        padding: 25px 5px 0px  20px;
+
+    }
+
+    header .head button{
+        width: 50%;
+        margin: 5px 0px 0px 80px;
+    }
+
+    header .head {
+        height: 1200px;
+
+    }
+
+    .middle .box1{
+        margin: 0px 0px 15px 0px;
+        width: 100%;
+    }
+
+    .middle .box1 h1{
+        font-size: 50px;
+    }
+
+    .middle .box1 button{
+        margin: 10px 0px 0px 70px ;
+
+    }
+
+
+
+    .middle .box2{
+        margin: 0px 0px 15px 0px;
+        width: 100%;
+    }
+
+    .middle   .box2 i{
+        margin-top: -100px;
+    }
+
+    .middle .box3{
+        margin: 0px 0px 15px 0px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:389px){
+    header .head {
+        height:1265px;
+    }
+}
+
+@media screen and (max-width:375px){
+    header .head {
+        height:1305px;
+    }
+
+    .middle{
+        margin-top: 900px;
+    }
+
+    header nav ul li{
+        padding: 25px 0px 0px 15px;
+
+    }
+}
+
+@media screen and (max-width:350px){
+    header .head {
+        height:1450px;
+    }
+
+    header .head img{
+        height: 48%;
+    }
+
+    .middle{
+        margin-top: 1000px;
+    }
+
+    .middle .box1 h1{
+        font-size: 40px;
+    }
+
+    .middle .box1 button{
+        margin: 10px 0px 0px 60px ;
+
+    }
+}
+
+@media screen and (max-width:330px){
+    header nav ul li{
+        padding: 25px 0px 0px 10px;
+
+    }
+
+    .middle{
+        margin-top: 900px;
+    }
+
+    header .head {
+        height:1320px;
+    }
+
+    header .head img{
+        height: 38%;
+    }
+
+    .middle .box1 button{
+        margin: 10px 0px 0px 55px ;
+
+    }
+}
+
+@media screen and (max-width:310px){
+    header nav ul li{
+        padding: 25px 0px 0px 8px;
+
+    }
+
+    .end .div1 h1{
+        margin: 0;
+    }
+
+    .end .div1 p{
+        margin: 0;
+    }
+
+    .end .div1 button{
+        margin: 0;
+    }
+
+    .middle .box1 button {
+        margin: 10px 0px 0px 50px ;
+
+    }
+
+    .end .div2 .first-div h4{
+        padding: 15px 23px 15px 23px;
+
+    }
+}
+
+@media screen and (max-width:305px){
+    header nav ul li{
+        padding: 25px 0px 0px 6px;
+
+    }
+
+    .end .div1 button{
+        width: 5 0%;
+    }
+}
+
